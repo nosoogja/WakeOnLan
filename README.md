@@ -2,7 +2,7 @@
 
 ## Packet
 
-대상 PC MAC address : 34-F2-22-12-12-12
+대상 PC MAC address (ex) : 34-F2-22-12-12-12
                       
 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 
 
