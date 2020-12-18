@@ -14,6 +14,9 @@ func main() {
 
 	packet := MakePacket(REMOTE_MAC)
 	p(packet)
+
+	/// todo : send packet.  more later ...........
+	// send(REMOTE_MAC, packet)
 }
 
 func MakePacket(mac string) []byte {
@@ -21,12 +24,11 @@ func MakePacket(mac string) []byte {
 
 	mac = ut.Replace(mac, "-", "")
 
-	byMac := make([]byte, 100)
-	nn, err := hex.Decode(byMac, []byte(mac))
+	byMac, err := hex.DecodeString(mac)
 	ut.IsNotNil(err, "%v", err)
 
 	for i := 0; i < 16; i++ {
-		packet = append(packet, byMac[:nn]...)
+		packet = append(packet, byMac...)
 	}
 
 	return packet
