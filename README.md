@@ -23,6 +23,8 @@ https://sourceforge.net/projects/aquilawol/
 ## Network 설정
 BIOS 설정 변경 필요.
 
+BIOS 항목중에 Wake 관련 된 것들을 enable 시켜 줄것. 요리 조리 둘러보면 있음(-.-!)
+
 네트워크는 설정은 Driver 가 윈도우 기본 으로 설치된경우 안보일수 있다.
 
 고로 해당 제조사에서 다운 받아 다시 설치 할 것.
