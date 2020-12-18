@@ -8,7 +8,7 @@
 
 0x34 0xF2 0x22 0x12 0x12 0x12       : 16 번 반복
 
-UDP broadcast 전송.
+총 102byte UDP broadcast 전송.
 
 
 ## Network 설정
