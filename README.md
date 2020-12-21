@@ -40,6 +40,7 @@ BIOS 항목중에 Wake 관련 된 것들을 enable 시켜 줄것. 요리 조리 
 <img src="./img/wol_net.png"/>
 <img src="./img/wol_net1.png"/>
 <img src="./img/wol_net2.png"/>
+<img src="./img/wol_net3.png"/>
 
 ## Issue
 해보니 패킷 한번 전송으로 안 될때가 많다.
