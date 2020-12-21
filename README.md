@@ -1,6 +1,10 @@
 # WakeOnLan
 be on test
 
+```
+fmt.Println("on test")
+```
+
 Go : 1.15
 
 Python : 3.8
