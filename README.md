@@ -1,6 +1,10 @@
 # WakeOnLan
 be on test
 
+Go : 1.15
+
+Python : 3.8
+
 ## See also
 이미 무료 프로그램이 있으니 같이 사용 하여 테스트 하시길.
 
